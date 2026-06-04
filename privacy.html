@@ -16,29 +16,21 @@
     header {
       background: #111;
       border-bottom: 1px solid #222;
-      padding: 20px 40px;
+      padding: 16px 40px;
       display: flex;
       align-items: center;
       gap: 14px;
     }
-    header .logo-box {
+    header img {
       width: 42px;
       height: 42px;
-      background: #fff;
       border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 14px;
-      color: #000;
-      letter-spacing: -0.5px;
+      object-fit: cover;
     }
     header .app-name {
       font-size: 20px;
       font-weight: 700;
       color: #fff;
-      letter-spacing: -0.3px;
     }
     .container {
       max-width: 800px;
@@ -62,20 +54,9 @@
       color: #fff;
       margin: 40px 0 12px;
     }
-    p {
-      color: #aaa;
-      margin-bottom: 16px;
-      font-size: 15px;
-    }
-    ul {
-      padding-left: 20px;
-      margin-bottom: 16px;
-    }
-    ul li {
-      color: #aaa;
-      font-size: 15px;
-      margin-bottom: 8px;
-    }
+    p { color: #aaa; margin-bottom: 16px; font-size: 15px; }
+    ul { padding-left: 20px; margin-bottom: 16px; }
+    ul li { color: #aaa; font-size: 15px; margin-bottom: 8px; }
     a { color: #888; }
     footer {
       text-align: center;
@@ -87,29 +68,23 @@
   </style>
 </head>
 <body>
-
 <header>
-  <div class="logo-box">FA</div>
+  <img src="favicon.png" alt="Fashion Automation Logo" />
   <span class="app-name">Fashion Automation</span>
 </header>
-
 <div class="container">
   <h1>Fashion Automation Privacy Policy</h1>
   <p class="date">Last updated: June 4, 2026</p>
-
   <p>Fashion Automation ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application.</p>
-
   <h2>1. About This Application</h2>
   <p>Fashion Automation is a content automation tool that uses TikTok's Login Kit and Content Posting API to automatically publish fashion outfit slider content to TikTok on behalf of authorized users.</p>
-
   <h2>2. Information We Collect</h2>
   <p>When you connect your TikTok account to Fashion Automation, we access the following data via TikTok's official API:</p>
   <ul>
-    <li><strong>user.info.basic:</strong> Your TikTok user ID, display name, and profile avatar — used to identify your account within the application</li>
+    <li><strong>user.info.basic:</strong> Your TikTok user ID, display name, and profile avatar</li>
     <li><strong>video.publish:</strong> Permission to directly post photo/video content to your TikTok profile</li>
     <li><strong>video.upload:</strong> Permission to upload content as drafts to your TikTok account</li>
   </ul>
-
   <h2>3. How We Use Your Data</h2>
   <p>Data collected through TikTok API scopes is used exclusively to:</p>
   <ul>
@@ -118,13 +93,10 @@
     <li>Display your account information within the app interface</li>
   </ul>
   <p>We do not use your data for advertising, profiling, or any purpose beyond the core functionality of the application.</p>
-
   <h2>4. Data Sharing</h2>
   <p>We do not sell, rent, or share your personal data with third parties. Your TikTok access tokens are stored securely and used solely to interact with TikTok's API on your behalf.</p>
-
   <h2>5. Data Retention</h2>
   <p>We retain your access credentials only as long as you use Fashion Automation. You can disconnect your TikTok account and request deletion of your data at any time by contacting us.</p>
-
   <h2>6. Your Rights</h2>
   <p>You have the right to:</p>
   <ul>
@@ -133,23 +105,17 @@
     <li>Revoke TikTok authorization at any time via TikTok account settings</li>
     <li>Withdraw consent at any time</li>
   </ul>
-
   <h2>7. Security</h2>
-  <p>We implement appropriate technical measures to protect your data against unauthorized access, alteration, or disclosure. Access tokens are stored securely and never shared with unauthorized parties.</p>
-
+  <p>We implement appropriate technical measures to protect your data against unauthorized access, alteration, or disclosure.</p>
   <h2>8. Third-Party Services</h2>
   <p>Fashion Automation integrates with TikTok via their official developer API. Your use of TikTok is subject to TikTok's own Privacy Policy and Terms of Service.</p>
-
   <h2>9. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the date at the top of this page.</p>
-
   <h2>10. Contact</h2>
   <p>For any privacy-related questions or data requests, contact us at: <a href="mailto:customstud1os@gmx.de">customstud1os@gmx.de</a></p>
 </div>
-
 <footer>
   &copy; 2026 Fashion Automation. All rights reserved.
 </footer>
-
 </body>
 </html>
