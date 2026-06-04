@@ -19,23 +19,16 @@
     header {
       background: #111;
       border-bottom: 1px solid #222;
-      padding: 20px 40px;
+      padding: 16px 40px;
       display: flex;
       align-items: center;
       gap: 14px;
     }
-    header .logo-box {
+    header img {
       width: 42px;
       height: 42px;
-      background: #fff;
       border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 14px;
-      color: #000;
-      letter-spacing: -0.5px;
+      object-fit: cover;
     }
     header .app-name {
       font-size: 20px;
@@ -52,17 +45,11 @@
       text-align: center;
       padding: 80px 30px;
     }
-    .hero .logo-box-large {
-      width: 80px;
-      height: 80px;
-      background: #fff;
-      border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 26px;
-      color: #000;
+    .hero img {
+      width: 90px;
+      height: 90px;
+      border-radius: 18px;
+      object-fit: cover;
       margin-bottom: 28px;
     }
     .hero h1 {
@@ -105,14 +92,12 @@
   </style>
 </head>
 <body>
-
 <header>
-  <div class="logo-box">FA</div>
+  <img src="favicon.png" alt="Fashion Automation Logo" />
   <span class="app-name">Fashion Automation</span>
 </header>
-
 <div class="hero">
-  <div class="logo-box-large">FA</div>
+  <img src="favicon.png" alt="Fashion Automation Logo" />
   <h1>Fashion Automation</h1>
   <p>A fashion content automation tool that posts daily outfit inspiration sliders to TikTok.</p>
   <div class="links">
@@ -120,10 +105,8 @@
     <a href="privacy.html">Privacy Policy</a>
   </div>
 </div>
-
 <footer>
   &copy; 2026 Fashion Automation. All rights reserved.
 </footer>
-
 </body>
 </html>
